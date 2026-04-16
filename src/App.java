@@ -24,8 +24,21 @@
 */
 import java.util.*;
 public class App {
+    
     public static void main(String[] args) throws Exception {
+     
+        ArrayList<String> list = new ArrayList<String>();
         System.out.println("Hello, World!");
         Scanner scanner = new Scanner(System.in);
-    }
-}
+        while(true){
+        String input = String.valueOf(scanner.nextLine());
+        //  list.add(input);
+         if (scanner.nextLine() == "end") {
+                break;
+            
+        //   } for(int i=0; i < 3; i++){
+                // System.out.println(list.get(i));
+            }
+            
+        list.add(input);
+        }}}
